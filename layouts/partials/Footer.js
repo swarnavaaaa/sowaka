@@ -14,22 +14,6 @@ const Footer = () => {
       <div className="container">
         {/* footer menu */}
         <div className="row">
-          {/* {footer.map((col) => {
-            return (
-              <div className="mb-12 sm:col-6 lg:col-8" key={col.name}>
-                {markdownify(col.name, "h2", "h4")}
-                <ul className="mt-6">
-                  {col?.menu.map((item) => (
-                    <li className="mb-1" key={item.text}>
-                      <Link href={item.url} rel="">
-                        {item.text}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })} */}
           {/* social icons */}
           <div className="md-12 col-12">
             <Link href="/" aria-label="Sowaka">

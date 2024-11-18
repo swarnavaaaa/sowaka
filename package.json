@@ -1,6 +1,6 @@
 {
-  "name": "Sowaka-light-nextjs",
-  "description": "a nextjs and tailwindcss SAAS starter template",
+  "name": "sowaka",
+  "description": "Online Therapy with Sowaka",
   "version": "2.0.0",
   "private": true,
   "license": "MIT",

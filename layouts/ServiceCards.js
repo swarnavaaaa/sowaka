@@ -1,9 +1,8 @@
 import Link from "next/link";
-import Cta from "./components/Cta";
 
-function Pricing({ data }) {
+function ServiceCards({ data }) {
   const {
-    frontmatter: { title, plans, call_to_action },
+    frontmatter: { title, plans },
   } = data;
   return (
     <>
@@ -20,10 +19,7 @@ function Pricing({ data }) {
               >
                 <div className="card text-center">
                   <h4>{plan.title}</h4>
-                  {/* <div className="mt-5">
-                    <span className="text-5xl text-dark">${plan.price}</span>
-                    <span>/ {plan.type}</span>
-                  </div> */}
+
                   <h5 className="my-3 font-normal  ">{plan.subtitle}</h5>
                   <ul className="mt-5">
                     {plan.features?.map((feature, index) => (
@@ -47,9 +43,8 @@ function Pricing({ data }) {
           </div>
         </div>
       </section>
-      {/* <Cta cta={call_to_action} /> */}
     </>
   );
 }
 
-export default Pricing;
+export default ServiceCards;
