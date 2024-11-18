@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Sowaka Light Nextjs",
+    "title": "Sowaka",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Sowaka Light"
+    "logo_text": "Sowaka"
   },
 
   "settings": {
@@ -24,13 +24,12 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "footer_content": "Breaking barriers to provide accessible, high-quality mental health care for everyone.",
     "copyright": "Copyright @2024 Sowaka"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": ""
   }
 }

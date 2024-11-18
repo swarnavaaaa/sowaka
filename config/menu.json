@@ -5,16 +5,12 @@
       "url": "/"
     },
     {
-      "name": "Blog",
-      "url": "/blogs"
-    },
-    {
       "name": "Contact",
       "url": "/contact"
     },
     {
-      "name": "FAQ",
-      "url": "/faq"
+      "name": "About Us",
+      "url": "/aboutus"
     }
   ],
   "footer": [

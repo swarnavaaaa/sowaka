@@ -3,10 +3,10 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info:
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: We are here to help you!
+  description: To book a session, know more about our workshops or join the team, please fill the contact form. For any other queries, please write to below email.
   contacts:
-    - "phone: +88 125 256 452"
-    - "Mail: [info@Sowaka.com](mailto:info@Sowaka.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    # - "phone: +88 125 256 452"
+    - "Mail: [swarnavabusiness@gmail.com](mailto:swarnavabusiness@gmail.com)"
+    # - "Address: 360 Main rd, Rio, Brazil"
 ---
