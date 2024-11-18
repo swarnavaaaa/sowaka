@@ -7,6 +7,6 @@ info:
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
   contacts:
     - "phone: +88 125 256 452"
-    - "Mail: [info@Sowaka.com](mailto:info@Sowaka.com)"
+    - "Mail: [info@sowaka.com](mailto:info@sowaka.com)"
     - "Address: 360 Main rd, Rio, Brazil"
 ---
