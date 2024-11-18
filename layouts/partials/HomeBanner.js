@@ -7,8 +7,8 @@ const HomeBanner = ({ banner }) => {
     <section className="section pb-[50px]">
       <div className="container">
         <div className="row text-center">
-          <div className="mx-auto lg:col-12 flex items-center text-left">
-            <div className="w-[60%]">
+          <div className="mx-auto lg:col-12 flex flex-col-reverse md:flex-row items-center text-left">
+            <div className="w-full md:w-[60%]">
               <h1 className="font-primary font-bold">{banner.title}</h1>
               <p className="mt-4">{markdownify(banner.content)}</p>
               <Link
@@ -19,7 +19,7 @@ const HomeBanner = ({ banner }) => {
                 {banner.primaryButton.label}
               </Link>
               <Link
-                className=" btn btn-outline-primary mt-4 ml-4"
+                className=" btn btn-outline-primary mt-4 md:ml-4"
                 href={banner.secondaryButton.link}
                 rel={banner.secondaryButton.rel}
               >
@@ -34,7 +34,7 @@ const HomeBanner = ({ banner }) => {
               </Link>
             </div>
             <Image
-              className="mx-auto w-[40%] px-8"
+              className="mx-auto w-full  md:w-[40%] px-8 mb-4 md:mb-0"
               src={banner.image}
               width={750}
               height={390}
