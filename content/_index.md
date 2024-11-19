@@ -8,7 +8,7 @@ banner:
     link: "#concerns-we-address"
   secondaryButton:
     label: "Meet our team"
-    link: "/contact"
+    link: "/aboutus"
 
 # feature
 feature:
