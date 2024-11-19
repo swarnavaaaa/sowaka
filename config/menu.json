@@ -4,14 +4,15 @@
       "name": "Home",
       "url": "/"
     },
+     {
+      "name": "About Us",
+      "url": "/aboutus"
+    }
     {
       "name": "Contact",
       "url": "/contact"
     },
-    {
-      "name": "About Us",
-      "url": "/aboutus"
-    }
+   
   ],
   "footer": [
     {
