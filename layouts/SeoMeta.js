@@ -26,9 +26,6 @@ const SeoMeta = ({
       {/* canonical url */}
       {canonical && <link rel="canonical" href={canonical} itemProp="url" />}
 
-      {/* noindex robots */}
-      {noindex && <meta name="robots" content="noindex,nofollow" />}
-
       {/* meta-description */}
       <meta
         name="description"
