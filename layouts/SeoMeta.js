@@ -32,6 +32,8 @@ const SeoMeta = ({
         content={plainify(description ? description : meta_description)}
       />
 
+          <meta name="google-site-verification" content="h40DorlsgCKotKg_MT9QiXKcji_b0cyddPWFieRNDHE" />
+
       {/* author from config.json */}
       <meta name="author" content={meta_author} />
 
