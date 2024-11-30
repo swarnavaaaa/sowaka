@@ -10,7 +10,7 @@ const SeoMeta = ({
   image,
   description,
   canonical,
-  noindex,
+
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
