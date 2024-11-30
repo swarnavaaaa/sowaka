@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
-          <div className="col-12 md:col-6 lg:col-7">
+          <div className="col-12 md:col-6 lg:col-7 overflow-auto">
             <GoogleForm />
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
