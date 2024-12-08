@@ -22,8 +22,7 @@ profiles:
       alt: "Team member 3 photo"
 
   - title: Divyal Jain
-    answer: I’m Divyal Jain, a dedicated mental health professional with a bachelor’s degree from Delhi University and a master’s in Clinical and Counseling Psychology from Tata Institute of Social Sciences (TISS). With hands-on experience gained through internships at esteemed organizations like the Manas Foundation, Vandrevala Foundation, and Potentials Therapy Center, I bring a compassionate and evidence-based approach to therapy. <br/>
-I specialize in working with children and adolescents, helping them navigate life’s challenges and build resilience. Whether addressing emotional concerns, developmental hurdles, or behavioral issues, I aim to create a safe and supportive space where young minds can thrive. Together, we can work toward nurturing mental well-being and empowering personal growth.
+    answer: I’m Divyal Jain, a dedicated mental health professional with a bachelor’s degree from Delhi University and a master’s in Clinical and Counseling Psychology from Tata Institute of Social Sciences (TISS). With hands-on experience gained through internships at esteemed organizations like the Manas Foundation, Vandrevala Foundation, and Potentials Therapy Center, I bring a compassionate and evidence-based approach to therapy. <br/> I specialize in working with children and adolescents, helping them navigate life’s challenges and build resilience. Whether addressing emotional concerns, developmental hurdles, or behavioral issues, I aim to create a safe and supportive space where young minds can thrive. Together, we can work toward nurturing mental well-being and empowering personal growth.
     image:
       src: "/images/divyal.jpeg"
       alt: "Team member 4 photo"
