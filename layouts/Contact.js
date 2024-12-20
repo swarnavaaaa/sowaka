@@ -1,5 +1,6 @@
 import { markdownify } from "@lib/utils/textConverter";
 import GoogleForm from "./GoogleForm";
+import Calendly from "./Calendly";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -12,6 +13,10 @@ const Contact = ({ data }) => {
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7 overflow-auto">
+            <Calendly/>
+            <br></br>
+            <hr></hr>
+            <br></br>
             <GoogleForm />
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
