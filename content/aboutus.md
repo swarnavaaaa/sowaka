@@ -26,4 +26,10 @@ profiles:
     image:
       src: "/images/divyal.jpeg"
       alt: "Team member 4 photo"
+
+  - title: Aradhya Singh
+    answer: Hello, I’m Aradhya Singh, a psychologist passionate about supporting individuals in navigating their personal and professional challenges with empathy and care. I hold an MA in Applied Psychology from TISS Mumbai, where I developed a strong foundation in counseling microskills, trauma therapy, and child and adolescent therapy. <br/> My practice focuses on helping young professionals and individuals facing work-life challenges, workplace stress, burnout, and anxiety. I use a collaborative, empathetic, and strengths-based approach to therapy, creating a safe space for clients to explore their emotions and challenges while working toward growth and healing. <br/> While my work is rooted in a Rogerian (person-centered) approach, I integrate techniques from narrative therapy, CBT, and other evidence-based frameworks to tailor sessions to each client's unique needs. My aim is to help clients build resilience, develop self-awareness, and empower themselves to lead more fulfilling and balanced lives. <br/> I offer therapy in English and Hindi, with the flexibility of online sessions to make mental health support more accessible. Whether you're looking to navigate professional hurdles, cope with stress, or work through anxiety, I am here to support you on your journey toward well-being.
+    image:
+      src: "/images/aradhya.jpeg"
+      alt: "Team member 5 photo"
 ---
