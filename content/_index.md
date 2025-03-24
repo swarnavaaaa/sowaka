@@ -2,7 +2,7 @@
 banner:
   title: Online Therapy with Sowaka
   content: At Sowaka, we are dedicated to providing a safe, welcoming space where everyone feels truly heard and supported. <br/> Our qualified therapists understand the courage it takes to seek help, and we’re committed to offering compassionate, evidence-based care tailored to each individual's needs.
-  image: /images/banner-art.jpg
+  image: /images/Sowaka.jpg
   primaryButton:
     label: "Concerns we address"
     link: "#concerns-we-address"
