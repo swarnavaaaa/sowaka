@@ -34,6 +34,7 @@ const HomeBanner = ({ banner }) => {
               </Link>
             </div>
             <Image
+style={{    aspectRatio: 4 / 3}}
               className="mx-auto w-full  md:w-[40%] px-8 mb-4 md:mb-0"
               src={banner.image}
               width={750}
