@@ -9,7 +9,7 @@ function Profile({ data }) {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
 
-        <div className="section row  -mt-6">
+        <div className="section row justify-center items-center  -mt-6">
           {profiles.map((profile, index) => (
             <div key={index} className="col-12 mt-6 md:col-6">
               <div className="p-12 h-full shadow">
