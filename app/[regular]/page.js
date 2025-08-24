@@ -32,8 +32,6 @@ const RegularPages = async ({ params }) => {
         <Contact data={regularPageData} />
       ) : layout === "pricing" ? (
         <ServiceCards data={regularPageData} />
-      ) : layout === "aboutus" ? (
-        <Profile data={regularPageData} />
       ) : (
         <Default data={regularPageData} />
       )}

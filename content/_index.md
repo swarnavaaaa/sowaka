@@ -4,15 +4,24 @@ banner:
   content: At Sowaka, we are dedicated to providing a safe, welcoming space where everyone feels truly heard and supported. <br/> Our qualified therapists understand the courage it takes to seek help, and we’re committed to offering compassionate, evidence-based care tailored to each individual's needs.
   image: /images/Sowaka.jpg
   primaryButton:
-    label: "Concerns we address"
-    link: "#concerns-we-address"
+    label: "Book a session"
+    link: "/contact"
   secondaryButton:
     label: "Meet our team"
     link: "/aboutus"
 
+aboutus:
+  title: Meet the therapist
+  profiles:
+    - title: Swarnava Mukherjee
+      answer: I’m a counseling psychologist with a Master’s in Applied Psychology from TISS Mumbai, combining therapeutic expertise with a passion for technology-driven innovation.<br/><br/> With over a year of experience helping adults navigate behavioral and interpersonal challenges in hospitals, schools, and offices, I use a client-centric approach to foster personal growth and sustainable solutions. <br/><br/> he founder of Sowaka, our mental health and wellbeing brand, I collaborate with clients to help them better their lives. By aligning technology with psychology, I aim to create solutions that significantly enhance lives.<br/><br/> If you’re looking for someone who blends behavioral insight with strategic innovation to build meaningful products, let’s connect and explore how we can drive positive change together.
+      image:
+        src: "/images/member1.jpeg"
+        alt: "Team member 1 photo"
+
 # feature
 feature:
-  title: Concerns We Address
+  title: Concerns I Address
   button:
     label: "Book a Session"
     link: "/contact"
