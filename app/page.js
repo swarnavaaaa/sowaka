@@ -6,12 +6,13 @@ import HomeBanner from "@layouts/partials/HomeBanner";
 import HomeFeatures from "@layouts/partials/HomeFeatures";
 import { getListPage, getRegularPage } from "../lib/contentParser";
 import ServiceCards from "@layouts/ServiceCards";
+import Profile from "@layouts/Profile";
 
 const Home = async () => {
   const homePage = await getListPage("content/_index.md");
   const priceData = await getRegularPage("pricing");
   const { frontmatter } = homePage;
-  const { banner, feature, call_to_action } = frontmatter;
+  const { banner, feature, call_to_action, aboutus } = frontmatter;
   const { title } = config.site;
 
   return (
@@ -21,6 +22,8 @@ const Home = async () => {
       {/* Banner */}
       <HomeBanner banner={banner} />
 
+      <Profile data={aboutus} />
+
       {/* Features */}
       <HomeFeatures feature={feature} />
 
@@ -28,13 +31,13 @@ const Home = async () => {
       {/* <Services services={services} /> */}
 
       {/* How We Work */}
-      <ServiceCards data={priceData} />
+      {/* <ServiceCards data={priceData} /> */}
 
       {/* workflow */}
       {/* <Workflow workflow={workflow} /> */}
 
       {/* Cta */}
-      <Cta cta={call_to_action} />
+      {/* <Cta cta={call_to_action} /> */}
     </>
   );
 };

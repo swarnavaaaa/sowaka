@@ -18,7 +18,7 @@ const HomeBanner = ({ banner }) => {
               >
                 {banner.primaryButton.label}
               </Link>
-              <Link
+              {/* <Link
                 className=" btn btn-outline-primary mt-4 md:ml-4"
                 href={banner.secondaryButton.link}
                 rel={banner.secondaryButton.rel}
@@ -31,7 +31,7 @@ const HomeBanner = ({ banner }) => {
                   height={14}
                   alt="arrow"
                 />
-              </Link>
+              </Link> */}
             </div>
             <Image
 style={{    aspectRatio: 4 / 3}}

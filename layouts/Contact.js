@@ -16,8 +16,8 @@ const Contact = ({ data }) => {
             <Calendly/>
             <br></br>
             <hr></hr>
-            <br></br>
-            <GoogleForm />
+            {/* <br></br>
+            <GoogleForm /> */}
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
             {markdownify(info.title, "h4")}

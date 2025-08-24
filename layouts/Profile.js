@@ -2,18 +2,19 @@ import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
 
 function Profile({ data }) {
-  const { frontmatter } = data;
-  const { title, profiles } = frontmatter;
+
+  const { title, profiles } = data;
   return (
-    <section className="section">
+    <section className="section bg-theme-light">
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
 
         <div className="section row justify-center items-center  -mt-6">
           {profiles.map((profile, index) => (
-            <div key={index} className="col-12 mt-6 md:col-6">
-              <div className="p-12 h-full shadow">
-                {profile?.image && (
+            <div key={index} className="col-12 mt-8 ">
+              <div className="p-12 h-full shadow flex bg-white items-center justify-between w-full">
+               <div className="w-[40%] flex flex-col items-center justify-center">
+                 {profile?.image && (
                   <div className="w-full  m-3 mb-6">
                     <Image
                       src={profile.image.src}
@@ -27,7 +28,8 @@ function Profile({ data }) {
                 <div className=" relative ">
                   {markdownify(profile.title, "h4")}
                 </div>
-                {markdownify(profile.answer, "p", "faq-body mt-4")}
+                </div>
+                {markdownify(profile.answer, "p", "faq-body mt-4 w-[50%]")}
               </div>
             </div>
           ))}

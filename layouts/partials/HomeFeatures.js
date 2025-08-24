@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HomeFeatures = ({ feature }) => {
   return (
-    <section id="concerns-we-address" className="section bg-theme-light">
+    <section id="concerns-we-address" className="section ">
       <div className="container">
         <div className="text-center">
           <h2>{markdownify(feature.title)}</h2>
@@ -12,7 +12,7 @@ const HomeFeatures = ({ feature }) => {
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
           {feature.features.map((item, i) => (
             <div
-              className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
+              className="feature-card rounded-xl bg-white p-5 pb-8 text-center shadow"
               key={`feature-${i}`}
             >
               {item.icon && (
